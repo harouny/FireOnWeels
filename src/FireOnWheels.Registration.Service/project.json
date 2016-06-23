@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "FireOnWheels.Registration.Service Console Application",
+  "authors": [ "jeff" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "FireOnWheels.Messaging": "1.0.0-*"
+  },
+
+  "commands": {
+    "FireOnWheels.Registration.Service": "FireOnWheels.Registration.Service"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "RabbitMQ.Client": "3.6.1"
+      }
+    }
+  }
+}

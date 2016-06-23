@@ -1,0 +1,288 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "FireOnWheels.Messaging/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "MassTransit.RabbitMQ": "3.2.2",
+          "Newtonsoft.Json": "6.0.6",
+          "RabbitMQ.Client": "3.6.1"
+        }
+      },
+      "MassTransit/3.2.2": {
+        "type": "package",
+        "dependencies": {
+          "NewId": "2.1.3",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/net45/MassTransit.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MassTransit.dll": {}
+        }
+      },
+      "MassTransit.RabbitMQ/3.2.2": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "3.2.2",
+          "NewId": "2.1.3",
+          "Newtonsoft.Json": "7.0.1",
+          "RabbitMQ.Client": "3.6.1"
+        },
+        "compile": {
+          "lib/net45/MassTransit.RabbitMqTransport.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MassTransit.RabbitMqTransport.dll": {}
+        }
+      },
+      "NewId/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NewId.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NewId.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RabbitMQ.Client/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RabbitMQ.Client.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "FireOnWheels.Messaging/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "MassTransit.RabbitMQ": "3.2.2",
+          "Newtonsoft.Json": "6.0.6",
+          "RabbitMQ.Client": "3.6.1"
+        }
+      },
+      "MassTransit/3.2.2": {
+        "type": "package",
+        "dependencies": {
+          "NewId": "2.1.3",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/net45/MassTransit.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MassTransit.dll": {}
+        }
+      },
+      "MassTransit.RabbitMQ/3.2.2": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "3.2.2",
+          "NewId": "2.1.3",
+          "Newtonsoft.Json": "7.0.1",
+          "RabbitMQ.Client": "3.6.1"
+        },
+        "compile": {
+          "lib/net45/MassTransit.RabbitMqTransport.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MassTransit.RabbitMqTransport.dll": {}
+        }
+      },
+      "NewId/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NewId.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NewId.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RabbitMQ.Client/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RabbitMQ.Client.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "FireOnWheels.Messaging/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "MassTransit.RabbitMQ": "3.2.2",
+          "Newtonsoft.Json": "6.0.6",
+          "RabbitMQ.Client": "3.6.1"
+        }
+      },
+      "MassTransit/3.2.2": {
+        "type": "package",
+        "dependencies": {
+          "NewId": "2.1.3",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/net45/MassTransit.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MassTransit.dll": {}
+        }
+      },
+      "MassTransit.RabbitMQ/3.2.2": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "3.2.2",
+          "NewId": "2.1.3",
+          "Newtonsoft.Json": "7.0.1",
+          "RabbitMQ.Client": "3.6.1"
+        },
+        "compile": {
+          "lib/net45/MassTransit.RabbitMqTransport.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MassTransit.RabbitMqTransport.dll": {}
+        }
+      },
+      "NewId/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NewId.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NewId.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RabbitMQ.Client/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RabbitMQ.Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FireOnWheels.Messaging/1.0.0": {
+      "type": "project",
+      "path": "../FireOnWheels.Messaging/project.json"
+    },
+    "MassTransit/3.2.2": {
+      "type": "package",
+      "sha512": "0XhA83ltFDE/dWXrTkvuvSqire2qNUbKCElUrKe1kaYQFJ8Qe2U6nCtuipEYanSrVoc3+A1C6gC5sApvEIHTeg==",
+      "files": [
+        "lib/net45/MassTransit.dll",
+        "lib/net45/MassTransit.XML",
+        "MassTransit.3.2.2.nupkg",
+        "MassTransit.3.2.2.nupkg.sha512",
+        "MassTransit.nuspec"
+      ]
+    },
+    "MassTransit.RabbitMQ/3.2.2": {
+      "type": "package",
+      "sha512": "jFnCeUhNSGOAfgD9uqnj7b1ttTdcvslJCl/34oWqJzNKo7QZxQgF9Xovjp3q+Vzmhc7czIEvgP7qbUiTCGTUqg==",
+      "files": [
+        "lib/net45/MassTransit.RabbitMqTransport.dll",
+        "lib/net45/MassTransit.RabbitMqTransport.xml",
+        "MassTransit.RabbitMQ.3.2.2.nupkg",
+        "MassTransit.RabbitMQ.3.2.2.nupkg.sha512",
+        "MassTransit.RabbitMQ.nuspec"
+      ]
+    },
+    "NewId/2.1.3": {
+      "type": "package",
+      "sha512": "SmfFDkw86FLdv4Sth71Pu5B9br7jjBxP5kGT7JuFunIh6HS9AORzUwkdrlgZwY34kl4VgYMmUOusFErBjk1Vrg==",
+      "files": [
+        "lib/net45/NewId.dll",
+        "NewId.2.1.3.nupkg",
+        "NewId.2.1.3.nupkg.sha512",
+        "NewId.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/6.0.6": {
+      "type": "package",
+      "sha512": "w26uZNyCG5VeoKiEOJ4+9/o8koSofLKwHl7WLreIcp0U6r57L7WiRXmjp8MTKFw6dYNZ9AE0lw69WYbIhUsU9Q==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.6.0.6.nupkg",
+        "Newtonsoft.Json.6.0.6.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "RabbitMQ.Client/3.6.1": {
+      "type": "package",
+      "sha512": "hq7lbvwxJI8e6TvVbizEQ0LyBVB7xGibheCkoVtWMSDIP72k1hLIJSGk884uxUM12uJkWb9uVjIsBPu9/hjPTw==",
+      "files": [
+        "lib/net45/RabbitMQ.Client.dll",
+        "lib/net45/RabbitMQ.Client.xml",
+        "lib/netcore45/RabbitMQ.Client.dll",
+        "lib/netcore45/RabbitMQ.Client.xml",
+        "RabbitMQ.Client.3.6.1.nupkg",
+        "RabbitMQ.Client.3.6.1.nupkg.sha512",
+        "RabbitMQ.Client.nuspec",
+        "RabbitMQ.Client.nuspec~"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "FireOnWheels.Messaging >= 1.0.0-*"
+    ],
+    "DNX,Version=v4.5.1": [
+      "RabbitMQ.Client >= 3.6.1"
+    ]
+  }
+}
